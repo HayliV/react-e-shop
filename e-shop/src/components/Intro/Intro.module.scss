@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("https://fonts.googleapis.com/css?family=Montserrat");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap");
+
+@font-face {
+    font-family: "Roboto";
+    src: url("https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap");
+}
+
+.Intro {
+    background-image: url("./intro.svg");
+    height: 600px;
+    display: flex;
+
+    &__title {
+        opacity: 1;
+        width: 68px;
+        height: 16px;
+        transform: translate(-34px, -36px);
+        top: 40%;
+        left: 50%;
+        position: relative;
+        display: block;
+        color: white;
+        font-family: "Roboto";
+        text-align: center;
+        text-shadow: 0px 2px 5px darkgray;
+    }
+
+    &__subtitle {
+        color: white;
+        font-family: "Roboto";
+        text-align: center;
+        transform: translate(-34px, -36px);
+        top: 50%;
+        left: 43%;
+        position: relative;
+        display: block;
+        text-shadow: 0px 2px 5px darkgray;
+    }
+}

@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("https://fonts.googleapis.com/css?family=Montserrat");
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.product {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 540px;
+    height: 360px;
+    border: solid 6px #fff;
+    border-radius: 10px;
+    background: #f5f5f5;
+    box-shadow: 0 30px 20px -20px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+
+    &__left {
+        position: relative;
+        width: 50%;
+        height: 100%;
+        float: left;
+        overflow: hidden;
+    }
+
+    &__img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+        height: 300px;
+    }
+
+    &__right {
+        position: relative;
+        width: 50%;
+        height: 100%;
+        float: right;
+        padding: 2rem 1rem;
+        box-sizing: border-box;
+    }
+    &__name {
+        font-size: 1.6rem;
+        line-height: 2rem;
+        font-family: "Montserrat";
+        letter-spacing: 5px;
+    }
+
+    &__price {
+        padding: 1rem 0;
+        font-size: 1rem;
+        font-weight: bold;
+        font-family: "Montserrat";
+        letter-spacing: 5px;
+    }
+
+    &__description {
+        font-size: 0.9rem;
+        text-align: justify;
+        hyphens: auto;
+        overflow-y: hidden;
+        font-family: "Montserrat";
+    }
+
+    &__favourite {
+        width: 100%;
+        height: 2rem;
+        cursor: pointer;
+        background: none;
+        border: solid 2px #111;
+        border-radius: 4px;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+        transition: all 0.4s ease;
+        &:hover {
+            background: #70e1f5;
+        }
+    }
+
+    &__colour {
+        margin: 1rem 0;
+        &:after {
+            content: "";
+            display: block;
+            clear: left;
+        }
+    }
+
+    &__select {
+        width: 100%;
+        height: 2rem;
+        cursor: pointer;
+        background: none;
+        border: solid 2px #111;
+        border-radius: 4px;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+        transition: all 0.4s ease;
+    }
+
+    &__quantity {
+        margin-top: 20px;
+        width: 50%;
+        height: 2rem;
+        cursor: pointer;
+        background: none;
+        border: solid 2px #111;
+        border-radius: 4px;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+        transition: all 0.4s ease;
+        font-family: "Montserrat";
+        letter-spacing: 5px;
+    }
+
+    &__text {
+        font-family: "Montserrat";
+        letter-spacing: 3px;
+    }
+}

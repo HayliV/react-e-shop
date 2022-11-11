@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("https://fonts.googleapis.com/css?family=Montserrat");
+}
+
+.Card {
+    border-radius: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 400px;
+
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+    margin: 25px 50px 75px 100px;
+
+    &__img {
+        display: flex;
+        align-self: center;
+        width: 200px;
+        height: 200px;
+        opacity: 1;
+        border: 6px solid teal;
+    }
+
+    &__title {
+        margin-left: 10px;
+        font-family: "Montserrat";
+        letter-spacing: 5px;
+    }
+    &__price {
+        margin-left: 10px;
+        font-family: "Montserrat";
+        letter-spacing: 2px;
+    }
+
+    &__link {
+        margin-left: 10px;
+        font-family: Montserrat;
+        margin: 5px;
+        display: inline-block;
+        padding: 0.35em 1.2em;
+        border: 0.1em solid #ffffff;
+        margin: 0 0.3em 0.3em 0;
+        border-radius: 0.12em;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: "Montserrat";
+        letter-spacing: 5px;
+        font-weight: 300;
+        color: white;
+        text-align: center;
+        transition: all 0.2s;
+        background-color: teal;
+        border-radius: 10px;
+        justify-content: center;
+    }
+
+    &__centred {
+        display: flex;
+        justify-content: center;
+    }
+
+    &__text {
+        position: absolute;
+        top: 80px;
+        right: 15px;
+        font-weight: bold;
+        text-align: right;
+        font-size: 30px;
+    }
+}

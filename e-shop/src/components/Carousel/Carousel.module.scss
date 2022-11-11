@@ -1,0 +1,50 @@
+.carousel {
+    overflow: hidden;
+
+    &__inner {
+        white-space: nowrap;
+        transition: transform 0.3s;
+    }
+}
+
+.indicators {
+    display: flex;
+    justify-content: center;
+
+    &__button {
+        margin: 5px;
+        display: inline-block;
+        padding: 0.35em 1.2em;
+        border: 0.1em solid #ffffff;
+        margin: 0 0.3em 0.3em 0;
+        border-radius: 0.12em;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        color: white;
+        text-align: center;
+        transition: all 0.2s;
+        background-color: teal;
+        border-radius: 10px;
+    }
+
+    &__button:hover {
+        color: teal;
+        background-color: #ffffff;
+    }
+
+    &__buttonactive {
+        background-color: green;
+        color: white;
+        margin: 5px;
+    }
+}
+
+.carousel__item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    color: white;
+}
